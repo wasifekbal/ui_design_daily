@@ -1,12 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Donate Card</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="shadow"></div>
+    <div class="box">
+      <div class="gift-freq">
+        <p>Select gift frequency</p>
+        <div class="btns" id="frequency_btns">
+          <button class="btn freq_btn_active">Monthly</button>
+          <button class="btn">One time</button>
+        </div>
+      </div>
+      <div class="amount">
+        <p>Select amount</p>
+        <div class="btns">
+          <button class="btn">$12</button>
+          <button class="btn amount_btn_active">$30</button>
+          <button class="btn">$40</button>
+          <button class="btn">$50</button>
+          <button class="btn">$60</button>
+        </div>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox" name="fee" />
+        <p>
+          Yes. I'll generously add $0.30 each month to cover the transaction fees
+        </label>
+      </div>
+      <div class="info">
+        <div class="info-box">
+          <p>Name</p>
+          <input type="text" placeholder="Enter your name" />
+        </div>
+        <div class="info-box">
+          <p>Email</p>
+          <input type="email" placeholder="Enter your email" />
+        </div>
+        <a href="#">Give in honor to another person</a>
+      </div>
+      <button class="donate_btn">Donate now</button>
+      <div class="footer">
+        By donating, you agree to our <a href="#">terms of service</a> and
+        <a href="#">privacy policy</a>
+      </div>
+    </div>
+  </body>
+  <script src="./index.js"></script>
 </html>

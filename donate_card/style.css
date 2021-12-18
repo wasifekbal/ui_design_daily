@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ebebfb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+}
+
+.shadow {
+  background-color: #b4b4bc;
+  /* height: 37rem; */
+  height: 38rem;
+  /* width: 20rem; */
+  width: 22rem;
+  border-radius: 1.5rem;
+  position: absolute;
+  transform: translate(-0.8rem, -0.8rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  background-color: rgb(255 255 255);
+  /* height: 37rem; */
+  height: 38rem;
+  /* width: 20rem; */
+  width: 22rem;
+  border: 1px solid #dadefc;
+  border-radius: 1.5rem;
+  z-index: 999;
+  padding: 1rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.gift-freq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.2rem;
+}
+
+.gift-freq .btns {
+    padding: 0.2rem;
+    display: flex;
+    justify-content: center;
+    background-color: #EBEBFB;
+    height: 3rem;
+    border: 2px solid #dadefc;
+    border-radius: 5px;
+    column-gap: 5px;
+}
+
+.gift-freq .btns .btn {
+    width: 50%;
+    background-color: #EBEBFB;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.5s ease-out;
+}
+
+.freq_btn_active {
+    background-color: #fff !important;
+}
+
+.amount {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.amount p{
+    margin-bottom: 0.3rem;
+}
+
+.amount .btns {
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 0.5rem;
+    height: 2.5rem;
+}
+
+.amount .btns .btn {
+    width: 25%;
+    border: 2px solid #dadefc;
+    border-radius: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-out;
+}
+
+.amount_btn_active {
+    background-color: #1D2047 !important;
+    color: #fff !important;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.5rem;
+}
+
+.checkbox p{
+    font-size: 0.875rem;
+}
+
+.checkbox input {
+    width: 3rem;
+    height: 1.2rem;
+    margin-top: 5px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.3125rem;
+}
+
+.info .info-box p{
+    margin-bottom: 0.1rem;
+    font-size: 1rem;
+}
+
+.info .info-box input{
+    height: 3rem;
+    width: 100%;
+    padding: 0 0.8rem;
+    font-size: 1rem;
+    border: 2px solid #dadefc;
+    border-radius: 5px;
+}
+
+.info .info-box input::placeholder {
+    font-size: 1rem;
+}
+
+.info .info-box input:focus {
+    outline: none;
+}
+
+.info a {
+    text-decoration: none;
+    font-size: 0.875rem;
+}
+
+.donate_btn {
+    background-color: #1D2047;
+    color: #fff;
+    height: 2.5rem;
+    margin: 0.5rem 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.0625rem;
+    cursor: pointer;
+}
+
+.footer {
+    font-size: 0.875rem;
+}
+
+@media screen and (max-width: 400px){
+
+    .shadow {
+        width: 18.5rem;
+    }
+
+    .box {
+        width: 18.5rem;
+    }
+}

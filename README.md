@@ -14,7 +14,7 @@
 
 ![](./pricing_card/final_design.png)
 
-# [Donate Card](https://#)
+# [Donate Card](https://github.com/wasifekbal/ui_design_daily/tree/main/donate_card)
 
 <div style="text-align: right; font-size:1.2rem">
     <a href="https://www.uidesigndaily.com/posts/figma-donate-card-form-day-1499">uidesigndaily</a>

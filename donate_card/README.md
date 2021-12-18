@@ -4,4 +4,8 @@
     <a href="https://www.uidesigndaily.com/posts/figma-donate-card-form-day-1499">uidesigndaily</a>
 </div>
 
+![](./showcase.png)
+
+<hr>
+
 ![](./final_design.png)
